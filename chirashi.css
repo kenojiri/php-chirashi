@@ -1,0 +1,74 @@
+/* common */
+body {
+  font: 10pt/12pt sans-serif;
+  color: #555555;
+  text-align: center; 
+  background-image: url("./images/kumasensei.gif");
+}
+a:link {
+  color: #555588;
+}
+a:visited {
+  color: #885588;
+}
+a:hover {
+  color: #555555;
+}
+.border {
+  border-style: ridge;
+}
+.even {
+  background-color: #CCCCCC;
+}
+.descript {
+  font: 8pt/10pt sans-serif;
+  text-align: left;
+  padding: 3pt;
+}
+
+/* header / footer */
+div.header {
+  font: 8pt/10pt sans-serif;
+  text-align: left; 
+}
+div.title {
+  font: bold 16pt/20pt sans-serif;
+  text-align: center;
+  border-top: solid 2px #555555;
+  border-bottom: solid 2px #555555;
+  margin: 10px 100px;
+  padding: 10px;
+  background-color: #FFFFFF;
+}
+div.footer {
+  font: 8pt/10pt sans-serif;
+  text-align: right; 
+}
+
+/* forms */
+textarea#content {
+  background-image: url("./images/flier.gif");
+}
+
+
+/* tables */
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+tr.head {
+  background-color: #CCFFCC;
+}
+tr.odd {
+  background-color: #FFFFFF;
+}
+th, td {
+  font: 10pt/12pt sans-serif;
+  color: #555555;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0pt;
+}
+th {
+  font-weight: bold;
+}

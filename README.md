@@ -3,7 +3,16 @@ PHP Chirashi No Ura
 
 PHP written Chirashi No Ura.
 You can write texts and save them to sqlite data store.
-If you write a text in markdown syntax, you can view rendered text by PHP Markdown & Extra (markdown.php).
+If you wrote a text in markdown syntax, you can view the rendered text by PHP Markdown & Extra (markdown.php).
+
+
+Requirements
+------------
+* Apache HTTP Server (>= 2.0)
+  * mod_rewrite
+* PHP (>= 5.1)
+  * PDO support
+  * sqlite support
 
 
 License
